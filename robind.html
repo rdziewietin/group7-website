@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title style= "color:purple;">Robin's Page</title>
+	<title>Robin's Page</title>
 	<link rel="stylesheet" href="robind.css" />
 </head>
 <body>
 <script>
 
 function myFunction() {
-  document.getElementById("xkcd").innerHTML = "Paragraph changed!";
+  document.getElementById("xkcd").innerHTML = "Current Track: TJ's Theme - Echo";
 }
 	
 </script>
 	<header>
 		<h1>This is my page.</h1>
 	</header>
-	<main>
+
+<main>
     <button class = "styled"
-	    type = "button" onclick="myFunction()">Press here</button>
+	    type = "button" onclick="myFunction()">Press here
+	</button>
     <h2>Header</h2>
+	<h3 id="xkcd">Current Track: None</h3>
     <div>
-      <p id = "xkcd">Paragraph</p>
+      <p>Paragraph</p>
       <p>Paragraph 2</p>
       <img src="https://www.clipartkey.com/mpngs/m/40-401136_smiley-face-big-smile-clipart-png-download-excited.png" alt="Terrifying Smiley">
 	</main>
