@@ -21,16 +21,15 @@
 				Hobbies: Watching YouTube, Playing D&D, Reading, Doing Random Research
 				Favorite Things: Food - Calamari, Color - Turquoise, 
 			</p>
-			<script type = "text/javascript">
-				const aboutMeEdit = document.querySelector('aboutMeInfo');
+			<script>
 				let opened = false;
 				function activate() :
 					if (opened) {
-						aboutMeEdit.style.display = 'none';
+						document.getElementById("aboutMeInfo").style.display = 'none';
 						opened = true;
 					}
 					else {
-						aboutMeEdit.style.display = 'block';
+						document.getElementById("aboutMeInfo").style.display = 'block';
 						opened = false;
 					}
 				}
