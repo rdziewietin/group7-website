@@ -1,8 +1,8 @@
-p {
+.moving {
   color: purple;
   animation-duration: 3s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-direction: alternate;
 }
 
