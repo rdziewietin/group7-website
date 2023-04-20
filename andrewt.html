@@ -6,21 +6,37 @@
         background-color: #26C6DA;
         font-family: ;
         font-size: ;
-      }
-			aboutMeInfo{
-			}
-			
-    </style>
+      }	
+    </style>     
   </head>
   <body>
-		<header>Welcome to Andrew's Page</header>
+	<header>Welcome to Andrew's Page</header>
 		<main>
 			<h1>My name is Andrew Tran and welcome to my section!</h1>
-			<div>
-				<button onclick="activate()">
-					About Me
-				</button>
-			</div>
+			<button onclick="activate()">About Me</button>
+			<p id = "aboutMeInfo">
+				School: 2nd Semester Sophomore at UMass Amherst
+				Major: Biology (for now)
+				Age: 20
+				Hobbies: Watching YouTube, Playing D&D, Reading, Doing Random Research
+				Favorite Things: Food - Calamari, Color - Turquoise, 
+			</p>
+			<script type = "text/javascript">
+				const aboutMeEdit = document.querySelector('aboutMeInfo');
+				let opened = false;
+				function activate() :
+					if (opened) {
+						aboutMeEdit.style.display = 'none';
+						opened = true;
+					}
+					else {
+						aboutMeEdit.style.display = 'block';
+						opened = false;
+					}
+				}
+			</script>
+			
+			
 		</main>
-	<body>
+   <body>
 </html>
