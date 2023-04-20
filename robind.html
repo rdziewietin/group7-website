@@ -8,7 +8,7 @@
 <script>
 
 function myFunction() {
-  document.getElementById("xkcd").innerHTML = "Current Track: TJ's Theme - Echo";
+  document.getElementById("xkcd").classList.add('moving');
 }
 	
 </script>
@@ -21,11 +21,11 @@ function myFunction() {
 	    type = "button" onclick="myFunction()">Press here
 	</button>
     <h2>Header</h2>
-	<h3 id="xkcd">Current Track: None</h3>
+	<h3>Current Track: None</h3>
     <div>
       <p>Paragraph</p>
       <p>Paragraph 2</p>
-      <img src="https://www.clipartkey.com/mpngs/m/40-401136_smiley-face-big-smile-clipart-png-download-excited.png" alt="Terrifying Smiley">
+      <img id="xkcd" src="https://www.clipartkey.com/mpngs/m/40-401136_smiley-face-big-smile-clipart-png-download-excited.png" alt="Terrifying Smiley">
 	</main>
 	<footer>
 		<p>&copy; 2023 My Website. All rights reserved.</p>
