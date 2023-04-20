@@ -3,6 +3,7 @@
   animation-name: slidein;
   animation-iteration-count: 1;
   animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
 html{
