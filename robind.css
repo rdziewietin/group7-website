@@ -6,6 +6,10 @@ p {
   animation-direction: alternate;
 }
 
+html{
+  background-color: blanchedalmond;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
