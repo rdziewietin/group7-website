@@ -19,7 +19,8 @@ html{
 }
 
 #invis {
-    font-size: 0px;
+    font-size: 0;
+    color:transparent;
 }
 
 body {
