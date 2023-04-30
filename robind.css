@@ -46,7 +46,8 @@ h1{
 }
 
 .styled {
-  justify-content: center;  
+  justify-content: center;
+  margin: 0 auto;
   border: 0;
     align: middle;
     line-height: 2.5;
