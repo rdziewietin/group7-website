@@ -7,7 +7,7 @@
 }
 
 html{
-  background-color: purple;
+  background: linear-gradient(to right, purple, #444, purple);
 }
 
 #outer {
