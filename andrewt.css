@@ -2,6 +2,10 @@
   display: block;
   font-size: 5px
 }
+#favThingsInfo {
+  display: block;
+  font-size: 5px
+}
 html {
   background-color: #F7D2BC;
 }
@@ -16,21 +20,14 @@ h2 {
   font-size: 50px;
   text-align: center;
 }	
-#aboutButton {
+p {
+  font-size: 40px;
+  color: #4D2B12;
+}
+#button-group {
   font-size: 50px;
   padding: 60px 100px;
   color: #4D2B12;
   background-color: #F0C581;
   border-radius: 12px;
-}
-#favThingsButton {
-  font-size: 80px;
-  padding: 90px 200px;
-  color: #4D2B12;
-  background-color: #F0C581;
-  border-radius: 12px;
-}
-p {
-  font-size: 40px;
-  color: #4D2B12;
 }
