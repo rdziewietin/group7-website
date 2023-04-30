@@ -24,7 +24,7 @@ p {
   font-size: 40px;
   color: #4D2B12;
 }
-#button-group {
+#button-group button {
   font-size: 50px;
   padding: 60px 100px;
   color: #4D2B12;
