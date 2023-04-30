@@ -18,6 +18,10 @@ html{
     align-items: center;
 }
 
+#invis {
+    font-size: 0px;
+}
+
 body {
     background-color: purple;
 }
