@@ -19,12 +19,18 @@ h2 {
 #aboutButton {
   font-size: 50px;
   padding: 60px 100px;
-  color: white;
-  background-color: black;
+  color: #4D2B12;
+  background-color: #F0C581;
+  border-radius: 12px;
 }
 #favThingsButton {
   font-size: 80px;
   padding: 90px 200px;
-  color: white;
-  background-color: black;
+  color: #4D2B12;
+  background-color: #F0C581;
+  border-radius: 12px;
+}
+p {
+  font-size: 40px;
+  color: #4D2B12;
 }
