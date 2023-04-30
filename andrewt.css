@@ -22,3 +22,9 @@ h2 {
   color: white;
   background-color: black;
 }
+#favThingsButton {
+  font-size: 80px;
+  padding: 90px 200px;
+  color: white;
+  background-color: black;
+}
