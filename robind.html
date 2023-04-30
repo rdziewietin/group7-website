@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Robin's Page</title>
-	<link rel="stylesheet" href="robind.css" />
+    <title>Robin's Page</title>
+    <link rel="stylesheet" href="robind.css" />
 </head>
-<body>
-<script>
+    <body>
+        <script>
+            function myFunction() {
+                var element = document.getElementById("xkcd");
+                var button = document.getElementById("the button")
+                element.classList.add("moving");
+                button.remove();
+            }
 
-function myFunction() {
-  	var element = document.getElementById("xkcd");
-	var button = document.getElementById("the button")
-	element.classList.add("moving");
-	button.remove();
-}
-	
-function myFunction2() {
-  	var element = document.getElementById("xkcd");
-	element.remove();
-	this.remove();
-}
-	
-</script>
-	<header>
-		<h1>Robin Dziewietin</h1>
-	</header>
+        </script>
 
-<main>
-    <h2>About Me</h2>
-    <div id="outer">
-      <p>Hi, I'm Robin Dziewietin! I'm a second-year Informatics & Social Thought and Political Economy double major. </p>
-      <p>Paragraph 2</p>
-	 <div id="inner">
-	<button class = "styled"
-	    type = "button" onclick="myFunction()" id="the button">Too dangerous
-	</button>
-      <img id="xkcd" src="https://64.media.tumblr.com/5b07ef553d9c665936dc14fa990e153e/331863bc70146fc4-e2/s2048x3072/709fafbad9263f3a667ba203b121f984d35ea84a.jpg" alt="Cool sword" width=300>
-	    </div>
-	</div>
-</main>
-</body>
+        <div id="container">
+            <header>
+                <h1>Robin Dziewietin</h1>
+            </header>
+
+            <main>
+                <h2>About Me</h2>
+                <div id="outer">
+                    <p>Hi, I'm Robin Dziewietin! I'm a second-year Informatics & Social Thought and Political Economy double major. </p>
+                    <p>Paragraph 2</p>
+                    <div id="inner">
+                        <button class = "styled"
+                            type = "button" onclick="myFunction()" id="the button">Too dangerous
+                        </button>
+                        <img id="xkcd" src="https://64.media.tumblr.com/5b07ef553d9c665936dc14fa990e153e/331863bc70146fc4-e2/s2048x3072/709fafbad9263f3a667ba203b121f984d35ea84a.jpg" alt="Cool sword" width=300>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
 </html>
