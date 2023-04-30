@@ -1,9 +1,9 @@
 #aboutMeInfo {
-  display: block;
+  display: none;
   font-size: 5px
 }
 #favThingsInfo {
-  display: block;
+  display: none;
   font-size: 5px
 }
 html {
