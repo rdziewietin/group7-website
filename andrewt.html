@@ -6,12 +6,12 @@
   </head>
   <body>
 	<script>
-		function activate() {
-			if (document.getElementById("aboutMeInfo").style.display == 'none') {
-				document.getElementById("aboutMeInfo").style.display = 'block';
+		function activate(info) {
+			if (document.getElementById(info).style.display == 'none') {
+				document.getElementById(info).style.display = 'block';
 			}
 			else {
-				document.getElementById("aboutMeInfo").style.display = 'none';
+				document.getElementById(info).style.display = 'none';
 			}
 		}
 	</script>
@@ -20,7 +20,7 @@
 	</header>
 		<main>
 			<h2>My name is Andrew Tran and here is my page!</h2>
-			<button id="aboutButton" onclick="activate()">About Me</button>
+			<button id="aboutButton" onclick="activate("aboutMeInfo")">About Me</button>
 			<div id="aboutMeInfo">
 				<p>
 					School: 2nd Semester Sophomore at UMass Amherst </br>
@@ -30,7 +30,7 @@
 			</div>
 			<div id="favThings">
 				<img src="https://www.monsterhunter.com/rise/assets/images/common/share.png" alt="Monster Hunter Rise">
-				<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F48%2Fcb%2F53%2F48cb5349f515f6e59edc2a4de294f439.png&f=1&nofb=1&ipt=aaa52e1f8d0c7a1928f918a0ecab44294f380e28004b5ab4afba30000a350666&ipo=images" alt="Dungeons & Dragons>
+				<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F48%2Fcb%2F53%2F48cb5349f515f6e59edc2a4de294f439.png&f=1&nofb=1&ipt=aaa52e1f8d0c7a1928f918a0ecab44294f380e28004b5ab4afba30000a350666&ipo=images" alt="Dungeons & Dragons">
 			</div>
 		</main>
    <body>
