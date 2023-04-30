@@ -1,21 +1,22 @@
 #aboutMeInfo {
   display: block;
+  font-size: 5px
 }
 html {
-  background-color: #c0bbbb;
+  background-color: #F7D2BC;
 }
 h1{
   font-size: 20px;
   text-align: center;
-  background-color: #26C6DA;
+  background-color: #A7C7EB;
+  text-align: center;
 }
 h2 {
-  background-color: ;
-  font-family: ;
-  font-size: ;
+  font-size: 5px;
+  text-align: center;
 }	
 #aboutButton {
-  line-height: 4;
+  line-height: 10;
   font-size: rem;
   color: white;
   background-color: black;
