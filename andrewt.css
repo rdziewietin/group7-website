@@ -4,12 +4,19 @@
 html {
   background-color: #c0bbbb;
 }
-h1 {
+h1{
+  font-size: 20px;
+  text-align: center;
   background-color: #26C6DA;
+}
+h2 {
+  background-color: ;
   font-family: ;
   font-size: ;
 }	
-header {
-  font-size: 20px;
-  text-align: center;
+#aboutButton {
+  line-height: 4;
+  font-size: rem;
+  color: white;
+  background-color: black;
 }
